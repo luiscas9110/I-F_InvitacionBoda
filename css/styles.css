@@ -529,22 +529,23 @@ body{background-color:#fbf8f2;background-image:radial-gradient(ellipse at 14% 9%
 .ruta-parada p{margin:4px 0 0;color:var(--muted);font-size:.78rem}
 .ruta-conector{height:28px;margin:4px 0 4px 18px;border-left:1px dashed rgba(178,138,90,.65)}
 .ruta-ilustracion-wrap{position:relative;width:min(511px,96%);margin:0 auto 30px;isolation:isolate}
-.ruta-ilustracion-wrap::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,var(--cream) 0%,rgba(235,226,212,.78) 1%,rgba(235,226,212,0) 4%,transparent 96%,rgba(235,226,212,0) 96%,rgba(235,226,212,.78) 99%,var(--cream) 100%),linear-gradient(180deg,var(--cream) 0%,rgba(235,226,212,.78) 1%,rgba(235,226,212,0) 3%,transparent 97%,rgba(235,226,212,0) 97%,rgba(235,226,212,.78) 99%,var(--cream) 100%)}
+.ruta-ilustracion-wrap::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,var(--cream) 0%,rgba(245,240,231,.78) 1%,rgba(245,240,231,0) 4%,transparent 96%,rgba(245,240,231,0) 96%,rgba(245,240,231,.78) 99%,var(--cream) 100%),linear-gradient(180deg,var(--cream) 0%,rgba(245,240,231,.78) 1%,rgba(245,240,231,0) 3%,transparent 97%,rgba(245,240,231,0) 97%,rgba(245,240,231,.78) 99%,var(--cream) 100%)}
 .ruta-ilustracion{display:block;width:100%;height:auto;mix-blend-mode:normal;clip-path:inset(1px)}
 .opening-cover{background-color:#e9dfcf;background-image:radial-gradient(ellipse at center,#f7f1e7 0%,#e1d5c2 100%);background-size:100% 100%;background-position:center;background-repeat:no-repeat}
 .opening-cover::before{content:"";display:block;position:absolute;inset:0 auto 0 50%;width:min(47.6875vh,100vw);height:100%;transform:translateX(-50%);border:0;outline:0;pointer-events:none;z-index:0;background:url("../assets/portada-sobre-personalizada.png") center/100% 100% no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.42) 5%,#000 18%,#000 82%,rgba(0,0,0,.42) 95%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.42) 5%,#000 18%,#000 82%,rgba(0,0,0,.42) 95%,transparent 100%)}
 .opening-cover::before{content:"";display:block;position:absolute;inset:0 auto 0 50%;width:min(47.6875vh,100vw);height:100%;transform:translateX(-50%);border:0;outline:0;pointer-events:none;z-index:0;background:url("../assets/portada-sobre-personalizada.png") center/100% 100% no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.42) 5%,#000 18%,#000 82%,rgba(0,0,0,.42) 95%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.42) 5%,#000 18%,#000 82%,rgba(0,0,0,.42) 95%,transparent 100%)}
 
-/* Unifica el fondo de la invitación con el beige de la portada */
-:root{--cream:#EBE2D4;--paper:#EBE2D4;--line:rgba(139,112,84,.24)}
-body{background:#EBE2D4;background-image:linear-gradient(180deg,#E6DBCA 0%,#EBE2D4 52%,#EEE5D7 100%);background-attachment:fixed}
+/* Fondo marfil claro tomado de la referencia */
+:root{--cream:#F5F0E7;--paper:#F5F0E7;--line:rgba(139,112,84,.20)}
+body{background:#F5F0E7;background-image:linear-gradient(180deg,#F2ECE2 0%,#F7F2E9 52%,#F4EEE4 100%);background-attachment:fixed}
 .section,.section.alt,.section#eventos,.hero,.ruta,.quote,footer{background:transparent}
 .quote,footer{color:var(--ink)}
 .quote small{color:var(--muted)}
 footer .script{color:#a88952}
 .event,.rsvp,.rsvp-modal-card,.floating-note,.story-stamp,.music{background:var(--cream)}
 .event::before{display:none}
-.time{background:rgba(230,219,202,.55)}
-header.scrolled{background:rgba(235,226,212,.94)}
-.opening-cover{background:linear-gradient(180deg,#E6DBCA 0%,#EBE2D4 52%,#EEE5D7 100%)}
+.time{background:rgba(232,224,210,.45)}
+header.scrolled{background:rgba(247,242,233,.94)}
+.opening-cover{background:linear-gradient(180deg,#F2ECE2 0%,#F7F2E9 52%,#F4EEE4 100%)}
 .opening-cover::after{display:none}
+
