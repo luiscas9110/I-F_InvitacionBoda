@@ -549,3 +549,7 @@ footer .script{color:#a88952}
 header.scrolled{background:rgba(247,242,233,.94)}
 .opening-cover{background:linear-gradient(180deg,#F2ECE2 0%,#F7F2E9 52%,#F4EEE4 100%)}
 .opening-cover::after{display:none}
+
+/* Botón principal de confirmación */
+.rsvp .btn.gold{background:linear-gradient(135deg,#d0b06f,#b58a45);border-color:#b58a45;color:#49391f;box-shadow:0 7px 18px rgba(153,112,48,.18)}
+.rsvp .btn.gold:hover{background:linear-gradient(135deg,#b58a45,#9e7435);border-color:#9e7435;color:#fffaf0;transform:translateY(-1px)}
