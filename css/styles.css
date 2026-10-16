@@ -42,7 +42,8 @@ header.scrolled{background:rgba(248,245,237,.94);backdrop-filter:blur(12px);padd
 .gift-section h2{margin-bottom:22px}
 .gift-envelope{position:relative;width:68px;height:54px;margin:0 auto 20px;color:var(--gold)}
 .gift-envelope svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-.gift-envelope span{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);font-size:13px;background:#edf0e7;line-height:1;padding:2px;color:var(--gold)}
+.gift-envelope .gift-seal{fill:var(--cream);stroke:var(--gold);stroke-width:1.15}
+.gift-envelope .gift-seal-sprig{fill:none;stroke:var(--olive);stroke-width:1;stroke-linecap:round;stroke-linejoin:round}
 .gift-section p{max-width:430px;margin:0 auto;line-height:1.8}
 .story{display:flex;justify-content:center;align-items:center;width:100%}
 .story-copy h3{font-size:2.8rem;font-weight:300;line-height:1.05;margin:14px 0 24px}
@@ -548,4 +549,3 @@ footer .script{color:#a88952}
 header.scrolled{background:rgba(247,242,233,.94)}
 .opening-cover{background:linear-gradient(180deg,#F2ECE2 0%,#F7F2E9 52%,#F4EEE4 100%)}
 .opening-cover::after{display:none}
-
