@@ -553,3 +553,13 @@ header.scrolled{background:rgba(247,242,233,.94)}
 /* Botón principal de confirmación */
 .rsvp .btn.gold{background:linear-gradient(135deg,#d0b06f,#b58a45);border-color:#b58a45;color:#49391f;box-shadow:0 7px 18px rgba(153,112,48,.18)}
 .rsvp .btn.gold:hover{background:linear-gradient(135deg,#b58a45,#9e7435);border-color:#9e7435;color:#fffaf0;transform:translateY(-1px)}
+
+.opening-date {
+  font-size: 1rem !important;
+}
+
+@media (max-width: 800px) {
+  .opening-date {
+    font-size: .9rem !important;
+  }
+}
