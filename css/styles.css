@@ -31,7 +31,7 @@ header.scrolled{background:rgba(248,245,237,.94);backdrop-filter:blur(12px);padd
 .hero-image{position:relative}
 .hero-image img{width:100%;height:650px;object-fit:cover;object-position:center;display:block;border-radius:180px 180px 8px 8px}
 .hero-image:after{content:"";position:absolute;inset:16px -16px -16px 16px;border:1px solid var(--gold);border-radius:180px 180px 8px 8px;z-index:-1;filter:blur(2px);opacity:.72}
-.floating-note{position:absolute;bottom:35px;left:-35px;background:var(--paper);padding:20px 25px;box-shadow:0 12px 35px #25352b12;font-size:.75rem}
+.floating-note{position:absolute;bottom:35px;left:-35px;background:var(--paper);padding:14px 18px;box-shadow:0 12px 35px #25352b12;font-size:.7rem}
 .section{padding:115px 0}
 .section.alt{background:#edf0e7}
 .section-head{text-align:center;max-width:620px;margin:0 auto 55px}
@@ -147,6 +147,11 @@ body.modal-open{overflow:hidden}
 .rsvp-option input{accent-color:var(--olive,#566d55)}
 .rsvp-error{display:none;color:#9a534a;font-size:.78rem;margin-top:5px}
 .rsvp-submit-error{min-height:1.2em;color:#9a534a;text-align:center;margin:8px 0;font-size:.88rem}
+.rsvp-companion-fields{display:grid;gap:10px}
+.rsvp-companion-card{padding:13px 14px;border:1px solid var(--line,#d8d1bf);border-radius:4px;background:rgba(255,255,255,.24)}
+.rsvp-companion-card h3{margin:0 0 10px;color:var(--olive,#566d55);font:500 .78rem "DM Sans",sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.rsvp-companion-card .rsvp-field{margin-bottom:10px}
+.rsvp-companion-card .rsvp-field:last-child{margin-bottom:0}
 .rsvp-submit{width:100%;margin-top:2px}
 .rsvp-success{text-align:center;max-width:490px;margin:auto;padding:28px 10px 10px}
 .rsvp-success-mark{font-family:serif;font-size:4rem;line-height:1;color:var(--gold,#b59657);margin-bottom:8px}
