@@ -310,7 +310,7 @@ if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches&&'Intersection
 
 const RSVP_WEB_APP_URL="https://script.google.com/macros/s/AKfycbxUhlXa7QkP_sPs433wRij0gCjvjt954oIujjFpgTJhFpDyO3PwEPistR9xvBXA-seJ/exec";
 const requestedCapacity=Number(new URLSearchParams(window.location.search).get('cupo'));
-const invitationCapacity=[2,3,4,5].includes(requestedCapacity)?requestedCapacity:4;
+const invitationCapacity=[1,2,3,4,5].includes(requestedCapacity)?requestedCapacity:4;
 const openingCapacity=document.getElementById('openingCapacity');
 const rsvpCapacityNote=document.getElementById('rsvpCapacityNote');
 if(openingCapacity)openingCapacity.textContent=`Invitación válida para ${invitationCapacity} ${invitationCapacity===1?'persona':'personas'}`;
